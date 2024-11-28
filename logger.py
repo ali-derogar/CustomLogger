@@ -64,7 +64,7 @@ def init_logger(file_name: str = None, log_level: str = "DEBUG", use_json: bool 
     logger.addHandler(file_handler)
 
     # Uncomment and configure the Logstash handler if needed
-    # host = "172.17.100.195"
+    # host = "***.***.***.***"
     # elk_handler = logstash.TCPLogstashHandler(host, 8300, version=1)
     # logger.addHandler(elk_handler)
 
